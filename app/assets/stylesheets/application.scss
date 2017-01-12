@@ -18,3 +18,48 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+.custab{
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
+}
+
+.jumbotron {
+  background-image:url('http://a3.qpic.cn/psb?/V13MJwM83ZGetu/bPDUuwGyA0it0HXORlpfWIXKpEdW.GPeDg9YMmvrkU4!/b/dPgAAAAAAAAA&bo=9AFOAQAAAAAFAJk!&rf=viewer_4');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  text-align: center;
+  padding-top: 12px;
+  padding-right: 3px;
+  padding-bottom: 12px;
+  padding-left: 3px;
+  margin: 15% 15%;
+  color: teal;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.slogan {
+  margin: 60px auto;
+  text-align: center;
+  color: white;
+  top: 12px;
+}
+
+.lead {
+  margin: 60px;
+  text-align: center;
+  color: white;
+  top: 20px;
+}
